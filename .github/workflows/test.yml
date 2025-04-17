@@ -1,3 +1,6 @@
+on:
+  workflow_dispatch:
+
 jobs:
   get-goland:
     runs-on: ubuntu-latest
