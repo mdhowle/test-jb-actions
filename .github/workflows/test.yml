@@ -1,0 +1,11 @@
+jobs:
+  get-goland:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Use JetBrains downloader action
+        uses: mdhowle/jetbrains-action@main
+        with:
+          command: download
+          code: GO
+          dest: .
+
